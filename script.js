@@ -1,9 +1,7 @@
 
 $(function () {
   var Today = dayjs();
-$('#currentDay').text(Today.format('MMM D, YYYY'));
-
-    var hour = dayjs().format('H');
+$('#currentDay').text(Today.format('MMM D, YYYY'));  
 })
     for (let i = 9; i < 18; i++) {
       if (hour > i) {
@@ -15,3 +13,4 @@ $('#currentDay').text(Today.format('MMM D, YYYY'));
       }
     };
     
+    var hour = dayjs().format('H');
