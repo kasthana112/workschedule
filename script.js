@@ -5,7 +5,7 @@ $('#currentDay').text(Today.format('MMM D, YYYY'));
 })
 
 $ (".saveBtn").on("click",function(){
-  var value = $(this).siblings("description").val();
+  var value = $(this).siblings(".description").val();
   console.log(value);
   var time = $(this).parent().attr("id");
   var newTime = time.split("-")[1];
